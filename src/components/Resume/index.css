@@ -1,10 +1,4 @@
 @media (min-width: 0px) {
-/*me*/
-  .body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100 vh;
-  }
 
     #resume-link-div {
         justify-content: center;
@@ -30,11 +24,5 @@
       .container {
         justify-content: center;
       }
-/*me*/
-      .footer {
-        margin-top: auto;
-      }
-
-
 
 }
