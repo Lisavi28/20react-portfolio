@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+
+import Nav from './components/Nav';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
+
+  const [navLinks] = useState([
+    { name: 'About'},
+    { name: 'Portfolio'},
+    { name: 'Contact'},
+    { name: 'Resume'},
+  ])
+
+  const [selectedNavLink, setSelectedNavLink] = useState(navLinks[0].name);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Nav
+          navLinks={navLinks}
+          selectedNavLink={selectedNavLink}
+          setSelectedNavLink={setSelectedNavLink}
+        />
+        <main>
+          {selectedNavLink === 'About' ? (
+            <>
+              <About />
+            </>
+          ) : selectedNavLink === 'Portfolio' ? (
+            <>
+              <Portfolio />
+            </>
+          ) : selectedNavLink === 'Contact' ? (
+            <>
+              <Contact />
+            </>
+          ) : (
+            <>
+              <Resume />
+            </>
+          )}
+        </main>
+        <Footer />
     </div>
   );
 }

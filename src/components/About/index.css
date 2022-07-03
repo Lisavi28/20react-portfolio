@@ -1,0 +1,16 @@
+@media (min-width: 0px) {
+
+    #bio {
+        margin: 3rem 0;
+      }
+
+    .img-me {
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #1e2222;
+        opacity: 0.9;
+        left: 10px;
+    }
+
+}
