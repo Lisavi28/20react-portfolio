@@ -7,7 +7,7 @@ function Footer() {
       <hr></hr>
       <div className='row'>
         <h5 className='col-10'>
-          <span>&copy;</span> 2022 By Lisavi.
+          <span>&copy;</span>  By Lisavi 2022.
         </h5>
         <div id='icon-div' className='row'>
         </div>
