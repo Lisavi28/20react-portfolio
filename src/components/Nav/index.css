@@ -31,7 +31,7 @@
       }
       
       header nav ul li a {
-        font-family: var(--text-style);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         font-size: 3rem;
       }
       

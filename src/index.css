@@ -1,13 +1,10 @@
 /* variable declarations */
-:root[theme='Dark'] {
+:root{
   --primary-color:gray;
   --secondary-color: pink;
   --text-color: black;
   --text-style: Open sans-serif;
 }
-
-
-/* add default's to weppage AKA Mark Box */
 
 * {
   margin: 0;
@@ -112,7 +109,7 @@ a {
 }
 
 li {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 
 .btn {

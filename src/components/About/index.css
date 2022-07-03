@@ -11,6 +11,11 @@
         background-color: #1e2222;
         opacity: 0.9;
         left: 10px;
+        justify-content: center;
+    }
+
+    .me {
+        justify-content: center;
     }
 
 }

@@ -20,7 +20,7 @@ const Resume = () => {
             {name: 'Visual Studio Code'},
             {name: 'Git'},
             {name: 'Chrome DevTools'},
-            {name: 'Npm'},
+            {name: 'Mongoose'},
             {name: 'Heroku'},
             {name: 'Imsonia'},
             {name: 'Handlebars'},
