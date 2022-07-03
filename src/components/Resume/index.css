@@ -1,4 +1,10 @@
 @media (min-width: 0px) {
+/*me*/
+  .body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100 vh;
+  }
 
     #resume-link-div {
         justify-content: center;
@@ -15,10 +21,20 @@
         justify-content: center;
       } 
       
-      .skill {
+      .skill tool {
         text-decoration: none;
         font-size: 2rem;
         margin-bottom: .5rem;
       }
+
+      .container {
+        justify-content: center;
+      }
+/*me*/
+      .footer {
+        margin-top: auto;
+      }
+
+
 
 }

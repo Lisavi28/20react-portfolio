@@ -29,8 +29,9 @@ const Resume = () => {
         ]
 
     return (
-        <section>
-            <h2 className='title'>Resume</h2>
+        
+        <section className='row container'>
+           <div className='col-3'>
             <div className='box'>
                 <h3>Proficiencies</h3>
                 <div id='skills-div' className='row'>
@@ -41,8 +42,9 @@ const Resume = () => {
                     </ul>
                 </div>
             </div>
-
-            <h2 className='title'>My tools</h2>
+</div>
+<div className='col-3'>
+            <h3 className='title'>My tools</h3>
             <div className='box'>
                 <div id='skills-div' className='row'>
                     <ul>
@@ -52,6 +54,7 @@ const Resume = () => {
                     </ul>
                 </div>
             </div>
+        </div>
         </section>
     )
 }
