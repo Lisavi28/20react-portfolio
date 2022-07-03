@@ -10,4 +10,4 @@ This task is to create a portfolio, using your new React skills..\
 
 click on my link https://www.lisavi.com
 
-![portfolio]()
+![portfolio](https://github.com/Lisavi28/20react-portfolio/blob/develop/src/assets/images/portfolio.PNG)
