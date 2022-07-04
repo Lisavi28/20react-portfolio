@@ -6,7 +6,7 @@
 
 ### Usage
 
-click on my link https://www.lisavi.com
+click on my link https://lisavi28.github.io/20react-portfolio/
 
 ![portfolio](https://github.com/Lisavi28/20react-portfolio/blob/develop/src/assets/images/portfolio.PNG)
 
