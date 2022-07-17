@@ -38,7 +38,7 @@ const Contact = () => {
         const message = formState.message;
         const reply_to = formState.email;
 
-        const toSend = { from_name, message, reply_to };
+        // const toSend = { from_name, message, reply_to };
 
         // reset input fields after submit
         Array.from(document.querySelectorAll("input")).forEach(
