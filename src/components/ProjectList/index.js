@@ -6,6 +6,13 @@ import { formatTitle } from '../../utils/helpers';
 const ProjectList = () => {
 
     const [projects] = useState([
+
+        {
+            name: 'find-your-teach',
+            deploy: ' https://fierce-lake-31540.herokuapp.com/',
+            problem_solved: 'Work up a interactive Full-Stack project.',
+            technologies_used: 'JavaScript, MongoDB,React, GraphQL, Heroku, CSS, Mongoose.',
+        },
         {
             name: 'shopping-smart',
             deploy: ' https://fathomless-bayou-71383.herokuapp.com/',
