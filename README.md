@@ -8,6 +8,8 @@
 
 click on my link https://lisavi28.github.io/20react-portfolio/
 
+https://gentle-shore-07462.herokuapp.com/
+
 ![portfolio](https://github.com/Lisavi28/20react-portfolio/blob/develop/src/assets/images/portfolio.PNG)
 
 ### Built with
